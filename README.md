@@ -34,6 +34,19 @@ You can use this directive like this:
     ...
 </div>
 ```
+
+or just this:
+```js
+<div owl-carousel>
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    ...
+</div>
+```
+
 and in your controller:
 ```js
 angular
