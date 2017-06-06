@@ -1,0 +1,40 @@
+{
+  "name": "angularowlcarousel",
+  "version": "1.0.0",
+  "description": "Angular directive that uses owl carousel by David Deutsch",
+  "main": "index.js",
+  "directories": {
+    "src": "src"
+  },
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install",
+    "demo": "node demo"
+  },
+  "keywords": [
+    "owl",
+    "carousel",
+    "angular-carousel",
+    "angular-owl-carousel",
+    "carouse directive"
+  ],
+  "author": "Jason Panugaling",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "keypress": "^0.2.1",
+    "serve": "^5.2.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashawk/angularOwlCarousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dashawk/angularOwlCarousel/issues"
+  },
+  "homepage": "https://github.com/dashawk/angularOwlCarousel#readme"
+}

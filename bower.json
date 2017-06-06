@@ -1,0 +1,30 @@
+{
+	"name": "angular-carousel",
+	"description": "Angular Owl Carousel Directive",
+	"main": "src/angular-carousel.js",
+	"authors": [
+		"Jason P <jmpanugaling@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"owl",
+		"owl.carousel",
+		"angular-carousel",
+		"carousel"
+	],
+	"homepage": "",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"owl.carousel": "^2.2.1"
+	},
+	"devDependencies": {
+		"angular": "^1.6.4",
+		"bootstrap": "^3.3.7"
+	}
+}
