@@ -15,7 +15,7 @@ var ngApp = angular.module('jmp.carousel', []);
 		nav: true
 	};
 	
-    app.directive('owlCarousel', function($timeout) {
+    app.directive('owlCarousel', ['$timeout', function($timeout) {
         return {
             restrict: 'EA',
             controller: CarouselController,
@@ -76,7 +76,7 @@ var ngApp = angular.module('jmp.carousel', []);
 				}
             }
         };
-    });
+    }]);
 
     function CarouselController() {
         this.instance = {};
