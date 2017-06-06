@@ -40,8 +40,8 @@ var ngApp = angular.module('jmp.carousel', []);
                 		scope.options = setOptions(nval);
 					}
 				});
-                
-                element.$on('$destroy', destroy);
+	
+				scope.$on('$destroy', destroy);
                 
                 function init() {
                 	scope.$apply(function () {
