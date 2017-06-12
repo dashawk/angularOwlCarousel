@@ -1,5 +1,6 @@
 {
-  "name": "angularOwlCarousel",
+  "name": "jmp-angular-owl-carousel",
+  "version": "1.0.6",
   "description": "Angular directive that uses owl carousel by David Deutsch",
   "main": "src/angular-carousel.js",
   "authors": [
@@ -15,6 +16,14 @@
   "homepage": "https://github.com/dashawk/angularOwlCarousel",
   "ignore": [
     "**/.*",
+    "src",
+    ".gitignore",
+    ".bowerrc",
+    ".travis.yml",
+    "demo.js",
+    "demo.html",
+    "gulpfile.js",
+    "README.md",
     "node_modules",
     "bower_components",
     "test",
