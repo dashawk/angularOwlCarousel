@@ -1,8 +1,8 @@
 {
-  "name": "jmp-angular-owl-carousel",
+  "name": "angular-owl-carousel",
   "version": "1.0.6",
   "description": "Angular directive that uses owl carousel by David Deutsch",
-  "main": "src/angular-carousel.js",
+  "main": "dist/angular-carousel.min.js",
   "authors": [
     "Jason P <jmpanugaling@gmail.com>"
   ],
