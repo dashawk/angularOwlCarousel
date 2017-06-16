@@ -15,6 +15,7 @@ var ngApp = angular.module('jmp.carousel', []);
 		nav: true
 	};
 	
+	/* @ngInject */
     app.directive('owlCarousel', ['$timeout', function($timeout) {
         return {
             restrict: 'EA',
