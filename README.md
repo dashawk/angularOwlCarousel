@@ -1,6 +1,5 @@
 # Introduction
 [![Build Status](https://travis-ci.org/dashawk/angularOwlCarousel.svg?branch=master)](https://travis-ci.org/dashawk/angularOwlCarousel)
-[![Dependency Status](https://gemnasium.com/badges/github.com/dashawk/angularOwlCarousel.svg)](https://gemnasium.com/github.com/dashawk/angularOwlCarousel)
 [![Donation Status](http://img.shields.io/gratipay/user/dashawk.svg)](https://gratipay.com/~dashawk/)
 
 Angular directive that uses owl carousel by David Deutsch.
