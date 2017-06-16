@@ -102,7 +102,9 @@ var ngApp = angular.module('jmp.carousel', []);
 				arguments[1] = speed;
 			}
 			
-            self.instance.trigger.apply(self.instance, arguments);
+			if (self.instance.hasOwnProperty('trigger')) {
+				self.instance.trigger.apply(self.instance, arguments);
+			}
         }
     }
 }(ngApp));
