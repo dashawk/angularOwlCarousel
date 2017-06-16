@@ -37,6 +37,8 @@ var ngApp = angular.module('jmp.carousel', []);
 				$timeout(function () { init(); });
                 
                 scope.$watch('owlCarousel', function (nval) {
+                	destroy();
+                	
                 	if (nval) {
                 		scope.options = setOptions(nval);
 					}
